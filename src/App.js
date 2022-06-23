@@ -6,10 +6,15 @@ function App() {
     <div className="App">
       <div className="container">
       <header className="App-header">
+      </header>
         <main>
           <Dictionary/>
         </main>
-      </header>
+      <footer className='text-center'>
+        <small>
+          Coded by Winnie Lam
+        </small>
+      </footer>
       </div>
     </div>
   );
