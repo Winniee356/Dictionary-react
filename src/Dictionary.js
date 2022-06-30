@@ -6,12 +6,11 @@ import "./Dictionary.css";
 export default function Dictionary() {
     let [keyword, setKeyword] = useState("");
     let [results, setResults] = useState(null);
-    
+    let [loaded, setLoaded] = useState(false);
 
     function handleResponse(response) {
         console.log(response.data[0]);
         setResults(response.data[0]);
-
     }
 
     function search() {
@@ -30,6 +29,11 @@ export default function Dictionary() {
     setKeyword(event.target.value);
    }
 
+   function load() {
+    
+   }
+
+   if (loaded) {
     return (
     <div className="Dictionary" >
         <section>
@@ -41,7 +45,10 @@ export default function Dictionary() {
         </div>
         </section>
         <Results results={results}/>
-      
-    </div>
+        </div>
     );
+    } else {
+        load();
+        return "Loading";
+    }
 }
