@@ -3,6 +3,7 @@
     text-decoration: none;
     padding: 10px 15px;
     border-radius: 20px;
+    transition: all 150ms ease-in-out;
 }
 
 .Phonetic a:hover {
