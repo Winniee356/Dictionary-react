@@ -4,3 +4,8 @@
     padding: 10px 15px;
     border-radius: 20px;
 }
+
+.Phonetic a:hover {
+    background-color: #FFE6E6;
+    color: white;
+}
