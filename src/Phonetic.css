@@ -1,4 +1,7 @@
 .Phonetic a {
+    font-size: 12px;
+    font-weight: bold;
+    color: #D4D3DD;
     border: 1px solid #ddd;
     text-decoration: none;
     padding: 10px 15px;
