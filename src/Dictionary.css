@@ -1,7 +1,16 @@
+form {
+text-align: center;
+margin-top: 30px;
+}
+
 .Dictionary h1 {
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 20px;
+}
+
+.Dictionary h1 {
+  text-align: center;
 }
 
 .Dictionary section{
@@ -23,4 +32,5 @@
 .Dictionary .hint{
   font-size: 11px;
   margin-top:5px;
+  text-align: center;
 }
