@@ -1,7 +1,12 @@
+.Phonetic {
+    height: 50px;
+}
+
 .Phonetic a {
     font-size: 12px;
     font-weight: bold;
-    color: #D4D3DD;
+    color: #8879B0;
+    margin-right: 10px;
     border: 1px solid #ddd;
     text-decoration: none;
     padding: 10px 15px;
@@ -10,6 +15,6 @@
 }
 
 .Phonetic a:hover {
-    background-color: #FFE6E6;
+    background-color: #EFEFBB;
     color: white;
 }
