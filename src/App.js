@@ -15,7 +15,7 @@ function App() {
         </main>
       <footer className='App-footer'>
         <small>
-          Coded by Winnie Lam
+          Coded by <a href="https://www.linkedin.com/in/winnieelam/" target="_blank" rel="noreferrer">Winnie Lam</a>
         </small>
       </footer>
       </div>
