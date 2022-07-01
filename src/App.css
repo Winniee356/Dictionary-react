@@ -2,6 +2,11 @@ body{
   background:linear-gradient(#ddd6f3, #EFEFBB);
 }
 
+.App{
+  max-width: 890px;
+  margin: 0 auto;
+}
+
 .App-header h1 {
   font-size: 140px;
   color: white;
