@@ -15,7 +15,7 @@ function App() {
         </main>
       <footer className='App-footer'>
         <small>
-          Coded by <a href="https://www.linkedin.com/in/winnieelam/" target="_blank" rel="noreferrer">Winnie Lam</a>
+          Coded by <a href="https://www.linkedin.com/in/winnieelam/" target="_blank" rel="noreferrer">Winnie Lam</a>. Open-sourced on <a href="https://github.com/Winniee356/Dictionary-react"target="_blank" rel="noreferrer">Github</a>.
         </small>
       </footer>
       </div>
