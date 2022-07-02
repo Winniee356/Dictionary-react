@@ -12,7 +12,9 @@ export default function Dictionary(props) {
         setResults(response.data[0]);
     }
 
-
+    function handlePexelsResponse(response) {
+        console.log(response);
+    }
 
     function search() {
     // documentation: https://dictionaryapi.dev/
@@ -21,7 +23,7 @@ export default function Dictionary(props) {
 
     let pexelsApiKey = "563492ad6f917000010000019313d3c3d84d49debcce0b884cddeeb6";
     let pexelsApiUrl = `https://api.pexels.com/v1/search?query=${keyword}&per_page=1`;
-    axios.get(pexelsApiUrl).then(handlePexelsResponse);
+    axios.get(pexelsApiUrl, { headers: {"Authorization" : `Bearer${pexelsApiKey}`}}).then(handlePexelsResponse);
   }
 
 
