@@ -33,6 +33,15 @@ body{
   width: 60px; 
 }
 
+.App a {
+  color: #748DA6;
+  text-decoration: none;
+}
+
+.App a:hover {
+  color: #FFC54D;
+}
+
 .App-footer {
   text-align: center;
   margin: 30px 0;
