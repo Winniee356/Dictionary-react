@@ -1,5 +1,10 @@
 import React from "react";
 
 export default function Photos(props) {
-    return "hello from photos";
+    console.log(props.photos);
+    if (props.photos) {
+        return "hello from photos";
+    } else {
+        return null;
+    }
 }
