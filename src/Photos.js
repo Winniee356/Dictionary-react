@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./Photos.css";
 
 export default function Photos(props) {
     console.log(props.photos);
@@ -10,7 +10,7 @@ export default function Photos(props) {
                 {props.photos.map(function(photo, index) {
                     return (
                         <div className="col-4" key={index} >
-                    <img src={photo.src.landscape} className="img-fluid" />
+                    <img src={photo.src.landscape} className="img-fluid" alt="" />
                     </div>
                      ) 
                     })}
