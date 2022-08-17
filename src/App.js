@@ -1,5 +1,6 @@
 import logo from "./WJLlogo.png";
 import './App.css';
+import './Media.css';
 import Dictionary from "./Dictionary";
 
 function App() {
